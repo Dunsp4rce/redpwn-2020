@@ -2,6 +2,7 @@
 layout: post
 title: "inspector-general"
 author: "anishbadhri"
+tags: ['web']
 ---
 
 My friend made a new webpage, can you [find a flag?](https://redpwn.net/)
