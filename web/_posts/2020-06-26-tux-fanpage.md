@@ -4,7 +4,6 @@ title: "tux-fanpage"
 author: "shreyas-sriram"
 ---
 
-# Challenge
 My friend made a fanpage for Tux; can you steal the source code for me?
 
 Site: `tux-fanpage.2020.redpwnc.tf`

@@ -4,7 +4,6 @@ title: "static-static-hosting"
 author: "shreyas-sriram"
 ---
 
-# Challenge
 Seeing that my last website was a success, I made a version where instead of storing text, you can make your own custom websites! If you make something cool, send it to me here.
 
 `https://admin-bot.redpwnc.tf/submit?challenge=static-static-hosting` (aadmin-bot)

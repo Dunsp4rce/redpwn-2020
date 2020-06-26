@@ -4,7 +4,6 @@ title: "post-it-notes"
 author: "shreyas-sriram"
 ---
 
-# Challenge
 Request smuggling has many meanings. Prove you understand at least one of them at `2020.redpwnc.tf:31957`.
 
 Note: There are a lot of time-wasting things about this challenge. Focus on finding the vulnerability on the backend API and figuring out how to exploit it.

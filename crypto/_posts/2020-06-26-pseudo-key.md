@@ -4,7 +4,6 @@ title: "pseudo-key"
 author: "shreyas-sriram"
 ---
 
-# Challenge
 Keys are not always as they seem...
 
 Note: Make sure to wrap the plaintext with `flag{}` before you submit!

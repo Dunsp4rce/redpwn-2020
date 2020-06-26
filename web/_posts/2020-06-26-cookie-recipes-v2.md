@@ -4,7 +4,6 @@ title: "cookie-recipes-v2"
 author: "shreyas-sriram"
 ---
 
-# Challenge
 I want to buy some of these recipes, but they are awfully expensive. Can you take a look?
 
 Site: `cookie-recipes-v2.2020.redpwnc.tf`
