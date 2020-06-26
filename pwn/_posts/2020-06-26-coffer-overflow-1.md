@@ -11,7 +11,7 @@ The coffers keep getting stronger! You'll need to use the source, Luke.
 - [coffer-overflow-1]({{site.baseurl}}/assets/coffer-overflow-1/coffer-overflow-1)
 - [coffer-overflow-1.c]({{site.baseurl}}/assets/coffer-overflow-1/coffer-overflow-1.c)
 
-# Solution
+## Solution
 
 The source file contains the following code:
 
@@ -48,6 +48,6 @@ nc 2020.redpwnc.tf 31255 < payload
 ```
 
 we get the contents of `flag.txt` from the server, as expected.
-# Flag
+## Flag
 
 `flag{th1s_0ne_wasnt_pure_gu3ssing_1_h0pe}`

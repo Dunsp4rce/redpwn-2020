@@ -11,7 +11,7 @@ Can you fill up the coffers? We even managed to find the source for you.
 - [coffer-overflow-0]({{site.baseurl}}/assets/coffer-overflow-0/coffer-overflow-0)
 - [coffer-overflow-0.c]({{site.baseurl}}/assets/coffer-overflow-0/coffer-overflow-0.c)
 
-# Solution
+## Solution
 
 The source file contains the following code:
 
@@ -41,7 +41,7 @@ int main(void)
 
 It's clear that we just have to change the value of `code` somehow to get shell access. Since buffer overflow from `name` will leak into `code` first, any suitably-sized input (I used the input `ABCDABCDABCDABCDABCDABCDABCD` of length 28 bytes) would grant shell access.
 
-# Flag
+## Flag
 
 `flag{b0ffer_0verf10w_3asy_as_123}`
 

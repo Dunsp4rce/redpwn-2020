@@ -10,7 +10,7 @@ There's a super secret flag in printf that allows you to LEAK the data at an add
 **Files:**
 - [secret-flag]({{site.baseurl}}/assets/secret-flag/secret-flag)
 
-# Solution
+## Solution
 
 Sadly, there's no source file provided with this question, so let's take a look at the disassembly of `secret-flag` using IDA:
 
@@ -26,6 +26,6 @@ Now, all we need to do is find the exact offset from `rsp` at which the pointer 
 
 So how can we use this information? The format string `%n$s` will print the string pointed to by the n<sup>th</sup> argument to `printf`. Thus, by giving `%7$s` as the input, we get the flag.
 
-# Flag
+## Flag
 
 `flag{n0t_s0_s3cr3t_f1ag_n0w}`
