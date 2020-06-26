@@ -4,8 +4,6 @@ title: "inspector-general"
 author: "anishbadhri"
 ---
 
-# Question
-
 My friend made a new webpage, can you [find a flag?](https://redpwn.net/)
 
 # Solution
