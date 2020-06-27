@@ -6,7 +6,7 @@ author: "shreyas-sriram"
 
 I wanted to make a website to store bits of text, but I don't have any experience with web development. However, I realized that I don't need any! If you experience any issues, make a paste and send it here. 
 
-`https://admin-bot.redpwnc.tf/submit?challenge=static-pastebin` (aadmin-bot)
+`https://admin-bot.redpwnc.tf/submit?challenge=static-pastebin` (admin-bot)
 
 Site: `static-pastebin.2020.redpwnc.tf`
 

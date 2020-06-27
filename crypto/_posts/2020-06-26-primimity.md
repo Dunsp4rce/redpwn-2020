@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "primimity"
-author: "Anonymous"
+author: "anishbadhri"
 tags: ['crypto']
 ---
 

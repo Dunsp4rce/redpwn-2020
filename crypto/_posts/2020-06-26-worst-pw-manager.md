@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "worst-pw-manager"
-author: "Anonymous"
+author: "anishbadhri"
 tags: ['crypto']
 ---
 

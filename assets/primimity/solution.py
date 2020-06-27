@@ -1,20 +1,5 @@
 from mod import Mod
-
-def nth_root(x, n):
-    upper_bound = 1
-    while upper_bound ** n <= x:
-        upper_bound *= 2
-    lower_bound = upper_bound // 2
-    while lower_bound < upper_bound:
-        mid = (lower_bound + upper_bound) // 2
-        mid_nth = mid ** n
-        if lower_bound < mid and mid_nth < x:
-            lower_bound = mid
-        elif upper_bound > mid and mid_nth > x:
-            upper_bound = mid
-        else:
-            return mid
-    return mid + 1
+import gmpy2
 
 file = open("primimity-public-key.txt").read().split('\n')
 
@@ -22,7 +7,7 @@ N = int(file[0].split()[1])
 e = int(file[1].split()[1])
 c = int(file[2].split()[1])
 
-n_cube_root = nth_root(N, 3)
+n_cube_root = int(gmpy2.iroot(N, 3)[0])
 
 p = -1
 q = -1
