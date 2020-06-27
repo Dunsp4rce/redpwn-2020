@@ -10,7 +10,7 @@ The itsy-bitsy spider climbed up the water spout...
 **Files:**
 - [itsy-bitsy.py]({{site.baseurl}}/assets/itsy-bitsy/itsy-bitsy.py)
 
-# Solution
+## Solution
 
 `itsy-bitsy.py` contains the following code:
 ```python
@@ -101,6 +101,6 @@ print(''.join([chr(int(ans[i:i+7], 2)) for i in range(0, 301, 7)]))
 ```
 >Note: Unfortunately, this method can't be used to find the bit at index 1 of the flag. I assumed the bit would be 1 as the flag format was `flag{?*}`.
 
-# Flag
+## Flag
 
 `flag{bits_leaking_out_down_the_water_spout}`
