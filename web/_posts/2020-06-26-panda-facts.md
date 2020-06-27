@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "panda-facts"
-author: "Anonymous"
+author: "anishbadhri"
 tags: ['web']
 ---
 
