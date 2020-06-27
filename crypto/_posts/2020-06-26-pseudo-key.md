@@ -90,4 +90,4 @@ with open('results.txt', 'w') as f:
 
 * Going through the file `results.txt`, one can make an educated guess of the words used in the **plaintext**
 * Use `cat results.txt | grep i_guess_pseudo_keys_are` to get the **plaintext**, which is also the **flag**<br/>
-` flag{i_guess_pseudo_keys_are_pseudo_secure} `
+`flag{i_guess_pseudo_keys_are_pseudo_secure}`

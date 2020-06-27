@@ -80,14 +80,14 @@ function strip(dir){
 ```
 
 * From the source code, it can be figured out that `./public/` is prepended to the query parameter
-* Using the source code and elements in the page, it can be concluded that the required source code file ` index.js ` is in the same level as that of ` /public `
+* Using the source code and elements in the page, it can be concluded that the required source code file `index.js` is in the same level as that of `/public`
 * Payloads like `?path=../index.js` are being sanitized
 * But notice that th sanitization code involves methods that are common to **strings** and **arrays**
 * To bypass the filtering, an **array** need to be passed in the query parameters<br/>
-` ?path=a&path=/../../index.js `
-* The first index has to be of ` length = 1 ` to bypass the filter
-* This is parsed as ` path[] = [a,/../../index.js] `
+`?path=a&path=/../../index.js`
+* The first index has to be of `length = 1` to bypass the filter
+* This is parsed as `path[] = [a,/../../index.js]`
 * The URL to retrieve the source code will be<br/>
-` https://tux-fanpage.2020.redpwnc.tf/page?path=a&path=/../../index.js `
+`https://tux-fanpage.2020.redpwnc.tf/page?path=a&path=/../../index.js`
 * Find the flag in the source code<br/>
-` flag{tr4v3rsal_Tim3} `
+`flag{tr4v3rsal_Tim3}`
