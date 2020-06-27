@@ -15,7 +15,7 @@ The coffers keep getting stronger! You'll need to use the source, Luke.
 
 The source file contains the following code:
 
-```
+```C
 #include <stdio.h>
 #include <string.h>
 

@@ -15,7 +15,7 @@ Can you fill up the coffers? We even managed to find the source for you.
 
 The source file contains the following code:
 
-```
+```C
 #include <stdio.h>
 #include <string.h>
 
